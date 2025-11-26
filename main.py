@@ -1,10 +1,6 @@
 import os
 import json
-import requests
-from dotenv import load_dotenv
-
-# .env ফাইল থেকে গোপন তথ্য লোড করুন
-load_dotenv() 
+import requests 
 
 # এনভায়রনমেন্ট ভেরিয়েবল থেকে টোকেনগুলো নিন
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
